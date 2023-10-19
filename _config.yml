@@ -1,0 +1,106 @@
+# Site settings
+title: Frannie's Blog
+SEOTitle: Frannie's Blog
+header-img: img/home-bg.jpg
+email: franylinn@gmail.com
+description: "Welcome to Frannie's blog.|Live in the moment."
+keyword: "frannie, frannie1020, C++, C#, python, netherlands, coding, blog, javascript, internet, linux, node.js, React, front-end, back-end, software developer, software engineer,programming, Life, Language learning"
+url: "https://frannie1020.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true
+#weibo_username: Frannie
+#zhihu_username: Frannie
+github_username: Frannie1020
+#twitter_username: Frannie
+#facebook_username:  Frannie
+# linkedin_username: 
+stackoverflow_username: 19196290/frannie  # id_number/username
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+# timezone: Asia/Shanghai
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Disqus settings
+disqus_username: https-frannie1020-github-io
+
+# LiveRe setttings
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+# livere_uid: MTAyMC81ODY0Ni8zNTEwOA
+
+# Netease settings
+netease_comment: false
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 37bffb21e13991b24f5f3e8bd7c771cd
+
+# Google Analytics
+ga_track_id: "UA-390246117-1" # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+# Busuanzi Ananytics
+busuanzi-active: true
+
+# Sidebar settings
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "Trying to be a full-stack SDE/SWE.|Lifelong learner."
+sidebar-avatar: /img/mini_fran.jfif # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: true
+
+# Friends
+friends:
+    [
+    { title: "Apple", href: "https://www.apple.com/" },
+    { title: "Google", href: "https://www.google.com/" },
+    { title: "Microsoft", href: "https://www.microsoft.com/" },
+    ]
+  
