@@ -14,7 +14,7 @@ tags:
 
 
 
-😄 The Blog used the template [Hux](https://github.com/Huxpro/Huxpro.github.io)  
+😄 The Blog used the template from [Hux](https://github.com/Huxpro/Huxpro.github.io)  
 ❤️ My first day in the blog.  
 💬 AMA-ask me anything. Leave a comment below the pages.  
 😋 Besides learning, I like tasting foods, traveling, doing handcrafts etc.  
